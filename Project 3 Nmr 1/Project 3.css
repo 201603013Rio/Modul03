@@ -1,0 +1,30 @@
+#first {
+  width: 370px;
+  height: 280px;
+  background: RGB(102,85,85);
+  position: relative;
+}
+#first #second {
+    border-radius: 30px;
+    width: 340px;
+    height: 250px;
+    background: RGB(210,180,140);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#first #third{
+    border-radius: 30px;
+    width: 300px;
+    height: 210px;
+    background: RGB(210,180,140);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div{
+    font-family: arial;
+    font-size: 30px;
+}

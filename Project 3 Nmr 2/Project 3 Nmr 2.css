@@ -1,0 +1,52 @@
+#segidelapan {
+	width: 250px;
+	height: 150px;
+	background: RGB(85,136,170);
+	position: absolute;
+}
+
+#segidelapan:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 15px solid RGB(85,136,170);
+	border-left: 15px solid #eee;
+	border-right: 15px solid #eee;
+	width: 220px;
+	height: 0;
+    background-color: white;
+}
+
+#segidelapan:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 15px solid RGB(85,136,170);
+	border-left: 15px solid #eee;
+	border-right: 15px solid #eee;
+	width: 220px;
+	height: 0;
+    background-color: white;
+}
+
+#teks1 {
+    padding: 3,5% 0;
+}
+
+#teks2 {
+    padding: 5% 0;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 13px;
+    line-height: 30px;
+}
+
+#rectangle {
+	width: 220px;
+	height: 100px;
+	background: white;
+}
+

@@ -1,0 +1,18 @@
+pie {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 50%;
+  background-color: transparent;
+  border: transparent;
+  float: left;
+  margin: 1em;
+}
+
+.pie1 {
+  background-image: linear-gradient(160deg, transparent 50%, RGB(154,205,50) 50%), linear-gradient(90deg, RGB(154,205,50) 50%, RGB(101,84,84) 50%);
+}
+
+.pie2 {
+  background-image: linear-gradient(90deg, transparent 50%, RGB(101,84,84) 50%), linear-gradient(300deg, RGB(101,84,84) 50%, RGB(154,205,50) 50%);
+}

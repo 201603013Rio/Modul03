@@ -1,0 +1,30 @@
+#shape1 {
+	width: 200px;
+	height: 50px;
+	transform: skew(30deg);
+	background: #5588ab;
+    float: left;;
+}
+
+#shape2 {
+	width: 30px;
+	height: 50px;
+	transform: skew(30deg);
+	background: white;
+    float: left;;
+}
+box{
+    width: auto;
+    height: 50px;
+    background-color: #5588ab;
+}
+
+p{
+    font-family: arial;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+    transform:skew(-30deg);
+    text-align: center;
+}
